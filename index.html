@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            background-color: lime;
+            height: 50px;
+        }
+        .logo{
+            background-image: url(logo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 50px;
+            width: 120px;
+        }
+        .search{
+            padding: 3px;
+            border-radius: 5px;
+        }
+        .sign{
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .input{
+            text-align: center;
+        }
+        .img{
+            margin: auto;
+            padding: 2px;
+            height: 170px;
+            width: 270px;
+        }
+        .img1{
+            background-image: url(cr7.jpg);
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+        }
+        .img2{
+            background-image: url(eto.webp);
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+        }
+        .img3{
+            background-image: url(kaka.webp);
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+        }
+        .img4{
+            background-image: url(mpabbe.webp);
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Logo</div>
+        <div class="search">
+            Serach: <input type="search" placeholder="search">
+        </div>
+        <div class="sign">
+            <button>Sign</button>
+        </div>
+       </div>
+       <div class="img img1"></div>
+       <div class="img img2"></div>
+       <div class="img img3"></div>
+       <div class="img img4"></div>
+    
+</body>
+</html>
